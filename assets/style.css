@@ -1,9 +1,12 @@
 .card-img-overlay {
+    /* bottom: 50px !important; */
     position: absolute;
-    width: 100%;
     top: 0;
-    bottom: 0;
-  
-  
+    /* right: 0; */
+    /* bottom: 0; */
+    left: 0;
+    padding: 1.25rem;
+    width: 100%;
+    overflow: hidden;
+    top: 75% !important;
 }
-
