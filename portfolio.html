@@ -63,7 +63,7 @@
 
             <!--this is the MEAT box with the images-->
             <div class="container">
-                    <div class="row" id="hangman">
+                    <div class="row">
                         <div class="col-lg-4">
                             <img class="card-img m-3" src="assets\images\PA-109.jpg" alt="family">
                             <div class="card-img-overlay text-center">
@@ -79,16 +79,16 @@
                         </div>
 
                       <div class="col-lg-4">
-                          <img class="img-fluid m-3" src="assets\images\PA-102_pp.jpg" alt="Reagan">
+                          <img class="img-fluid m-3 border border-info" src="assets\images\crystal.png" alt="crystal">
                           <div class="card-img-overlay text-center">
-                                <h2 class="bg-info text-white ml-3 w-100">Life Coach</h2>
+                                <h2 class="bg-info text-white ml-3 w-100" id="crystal">Crystal Game</h2>
                            </div>
                         </div>
 
                     </div>
                     <div class="row">
                       <div class="col-lg-4">
-                          <img class="img-fluid m-3" src="assets\images\trivia.jpg" alt="mentorship">
+                          <img class="img-fluid m-3" src="assets\images\trivia.jpg" alt="trivia game">
                           <div class="card-img-overlay text-center">
                                 <h2 class="bg-info text-white ml-3 w-100" id="trivia">Trivia Game</h2>
                            </div>
@@ -112,6 +112,7 @@
             </div>
        
     </div>
+    
 </div>
        
         <!--this is the footer and it stays the same for each page-->
@@ -121,9 +122,15 @@
     </div>
 </body>
 <script>
+//this redirects the user to the trivia game
 $("#trivia").click(function() {
 window.open("https://pennyarnold.github.io/TriviaGame/");
   });
+//this redirects the user to the crystal game
+$("#crystal").click(function() {
+window.open("https://pennyarnold.github.io/unit-4-game/");
+  });
+
 </script>
 
 </html>
